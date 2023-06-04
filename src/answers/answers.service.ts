@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Message } from './interfaces/Message';
+import { Templates } from '../enum/messages';
 
 @Injectable()
 export class AnswersService {
@@ -10,10 +11,10 @@ export class AnswersService {
       return Promise.reject(new Error('Empty message'));
     }
 
-    if (msg.value.indexOf('hello') > -1) {
-      res = 'hello';
+    if (msg.value.indexOf(Templates.hello) > -1) {
+      res = Templates.hello;
     } else {
-      res = 'unknown';
+      res = Templates.unknown;
     }
     return Promise.resolve(res);
   }
