@@ -1,7 +1,8 @@
 repo_name: wirtaw/nestjs-websocket-template
-report_id: 17fe72b8801bafb9bb536fe94297856b
+report_id: eb3bf5c214e11e2300e8d5c9234a76cc
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T10:26:54+00:00'
+timestamp: '2024-01-05T08:50:45+00:00'
 requested_by: wirtaw
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -88,6 +92,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -126,6 +131,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -137,6 +143,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template
   detection_source: Repo Metadata
 - name: Jest
   description: Painless JavaScript Unit Testing
@@ -188,6 +195,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -197,6 +205,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/public/index.html
   detection_source: public/index.html
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
