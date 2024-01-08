@@ -1,7 +1,8 @@
 repo_name: wirtaw/nestjs-websocket-template
 report_id: eb3bf5c214e11e2300e8d5c9234a76cc
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-11T19:46:36+00:00'
+timestamp: '2024-01-05T08:50:45+00:00'
 requested_by: wirtaw
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -47,7 +51,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -60,7 +64,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/7609/24939410.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-06-04 10:12:08.000000000 Z
@@ -75,7 +79,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/8747/4zsOyxko_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -88,6 +92,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -100,7 +105,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/service/1796/984368.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -113,7 +118,7 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-06-04 10:12:08.000000000 Z
@@ -126,6 +131,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -137,6 +143,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template
   detection_source: Repo Metadata
 - name: Jest
   description: Painless JavaScript Unit Testing
@@ -148,7 +155,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -162,7 +169,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -176,7 +183,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -188,19 +195,20 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
-- name: Shell
-  description: A shell is a text-based terminal, used for manipulating programs and
-    files. Shell scripts typically manage program execution.
-  website_url: https://en.wikipedia.org/wiki/Shell_script
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
   open_source: false
   hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
-  detection_source: Repo Metadata
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/public/index.html
+  detection_source: public/index.html
+  last_updated_by: Poplavskij Vladimir
+  last_updated_on: 2023-02-11 11:39:20.000000000 Z
 - name: "@nestjs/common"
   description: Nest - modern
   package_url: https://www.npmjs.com/@nestjs/common
@@ -211,7 +219,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16950/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -225,7 +233,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17223/default_48f040bdc5f6c639c70bf350f8b8158ede27286c.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -239,7 +247,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17855/default_dc034f75f103514d23b4d1a7fe578415d63216ee.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -253,7 +261,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-06-04 10:12:08.000000000 Z
@@ -267,7 +275,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-06-04 10:12:08.000000000 Z
@@ -281,7 +289,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-06-04 10:12:08.000000000 Z
@@ -295,7 +303,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16805/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-06-04 10:12:08.000000000 Z
@@ -309,7 +317,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-06-04 10:12:08.000000000 Z
@@ -323,7 +331,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-06-04 10:12:08.000000000 Z
@@ -337,7 +345,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-06-04 10:12:08.000000000 Z
@@ -351,7 +359,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-06-04 10:12:08.000000000 Z
@@ -366,7 +374,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -380,7 +388,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16019/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -394,7 +402,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -409,7 +417,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -423,7 +431,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
@@ -437,7 +445,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-06-04 10:12:08.000000000 Z
@@ -451,7 +459,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16810/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/wirtaw/nestjs-websocket-template/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Poplavskij Vladimir
   last_updated_on: 2023-02-11 11:39:20.000000000 Z
