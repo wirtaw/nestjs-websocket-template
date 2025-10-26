@@ -1,14 +1,29 @@
 import { Test, TestingModule } from '@nestjs/testing';
+import { ConfigService, ConfigModule } from '@nestjs/config';
+import { OpenAI } from 'langchain/llms/openai';
 import { AnswersService } from './answers.service';
 import { Message } from './interfaces/Message';
 import { Templates } from '../enum/messages';
+import mockedConfigService from '../utils/mocks/config.service';
 
 describe('AnswersService', () => {
   let service: AnswersService;
+  let mockOpenAI;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      providers: [AnswersService],
+      providers: [
+        AnswersService,
+        {
+          provide: ConfigService,
+          useValue: mockedConfigService,
+        },
+        {
+          provide: OpenAI,
+          useValue: {},
+        },
+      ],
+      imports: [ConfigModule],
     }).compile();
 
     service = module.get<AnswersService>(AnswersService);
@@ -51,10 +66,18 @@ describe('AnswersService', () => {
       expect(res).toEqual(Templates.hello);
     });
 
-    it('should get answer hello on ?', async () => {
+    it('should get answer unknown on small symbols', async () => {
       const msg: Message = { value: '?' };
       const res = await service.getAnswer(msg);
       expect(res).toEqual(Templates.unknown);
+    });
+
+    it('should get answer with service', async () => {
+      const msg: Message = { value: 'Test normal questions?' };
+      const result: string = 'Answer';
+
+      const res = await service.getAnswer(msg);
+      expect(res).toEqual(result);
     });
   });
 });

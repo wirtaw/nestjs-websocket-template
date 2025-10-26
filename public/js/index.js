@@ -7,7 +7,7 @@ document.body.onload = loadDocument();
 
 function loadDocument() {
   messagesBlock = document.getElementById('messagesBlock');
-  socket = io('http://localhost:3000');
+  socket = io('http://localhost:3001');
   socket.on('connect', function () {
     console.log('Connected');
 
@@ -43,7 +43,7 @@ function writeMessage({ direction = 'left', message = '' }) {
   const messageItem = document.createElement('span');
   messageItem.setAttribute(
     'class',
-    `tag is-medium ${direction === 'left' ? 'is-success' : 'is-info'}`,
+    `is-medium ${direction === 'left' ? 'has-text-primary' : 'has-text-info'}`,
   );
   messageItem.innerText = message;
 

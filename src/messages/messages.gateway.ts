@@ -6,6 +6,7 @@ import {
   WsResponse,
 } from '@nestjs/websockets';
 import { Logger, Injectable } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 import { from, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Server } from 'socket.io';
@@ -19,8 +20,9 @@ import { Message } from '../answers/interfaces/Message';
   },
 })
 export class MessagesGateway {
+  private readonly configuration = new ConfigService();
   private readonly logger = new Logger(MessagesGateway.name);
-  private readonly answers = new AnswersService();
+  private readonly answers = new AnswersService(this.configuration);
   @WebSocketServer() server: Server;
 
   @SubscribeMessage('events')
